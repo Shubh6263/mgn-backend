@@ -121,7 +121,9 @@ async fn google_auth(
         u
     } else {
         let unique_id = generate_unique_id();
-        let phone_placeholder = format!("google_{}", body.firebase_uid);
+        // Keep the placeholder within the users.phone_number VARCHAR(20) limit.
+        let phone_suffix: String = body.firebase_uid.chars().take(17).collect();
+        let phone_placeholder = format!("g_{phone_suffix}");
 
         sqlx::query_as(
             r#"
