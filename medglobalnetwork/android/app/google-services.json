@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584422072082",
+    "project_id": "flutter-ai-playground-d68ac",
+    "storage_bucket": "flutter-ai-playground-d68ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584422072082:android:0c31b4c47a9fbc6baa5dcb",
+        "android_client_info": {
+          "package_name": "com.medglobalnetwork.medglobalnetwork"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZUUgZ5S1t40JHQhHUFlmhL1hB32B7UtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

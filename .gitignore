@@ -1,0 +1,17 @@
+# Rust
+backend/target/
+backend/.env
+
+# Flutter
+medglobalnetwork/.dart_tool/
+medglobalnetwork/build/
+medglobalnetwork/.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
